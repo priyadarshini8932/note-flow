@@ -6,27 +6,43 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+
   theme: {
     extend: {},
   },
+
   plugins: [daisyui],
+
   daisyui: {
     themes: [
       "forest",
+
       {
         forestlight: {
-          primary: "#00C46A",
 
-          base100: "#F8FFF9",
-          base200: "#EAF5EE",
-          base300: "#D5EBDD",
+          "primary": "#00C46A",
 
-          baseContent: "#17212B",
+          "secondary": "#0EA5E9",
 
-          secondary: "#0EA5E9",
-          accent: "#10B981",
-        }
+          "accent": "#10B981",
+
+          "base-100": "#F8FFF9",
+
+          "base-200": "#EAF5EE",
+
+          "base-300": "#D5EBDD",
+
+          "base-content": "#17212B",
+
+          "info": "#3ABFF8",
+
+          "success": "#36D399",
+
+          "warning": "#FBBD23",
+
+          "error": "#F87272",
+        },
       },
     ],
-},
+  },
 };

@@ -35,7 +35,7 @@ const App = () => {
           ${
             theme === "forest"
               ? "[background:radial-gradient(125%_125%_at_50%_10%,#000_60%,#00FF9D40_100%)]"
-              : "[background:radial-gradient(125%_125%_at_50%_10%,#F6FFF9_60%,#00FF9D15_100%)]"
+              : "[background:radial-gradient(125%_125%_at_50%_10%,#F8FFF9_60%,#00C46A12_100%)]"
           }
         `}
       />
